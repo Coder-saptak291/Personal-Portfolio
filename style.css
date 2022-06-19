@@ -148,6 +148,9 @@
     opacity: 0.6;
 }
 @media only screen and (max-width:792px) {
+    #pic h1,#c-pic h1{
+        font-size:1.4rem;
+    }
     #pic::before{
         content: "";
         background: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg')no-repeat center center/cover;
